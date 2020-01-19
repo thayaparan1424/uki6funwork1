@@ -3,97 +3,98 @@ SC.initialize({
 });
 
 $(document).ready(function() {
-  SC.stream('/tracks/299479465',function(sound){
-    $('#start-e1').click(function(e) {
+  SC.stream('/tracks/430896987',function(sound){
+    $('#eng1').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-    $('#stop-e1').click(function(e) {
+    $('#eeng1').click(function(e) {
            e.preventDefault();
            sound.stop();
         });
   });
 
-  SC.stream('/tracks/105827731',function(sound){
-    $('#start-e2').click(function(e) {
+  SC.stream('/tracks/787662708',function(sound){
+    $('#eng2').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-    $('#stop-e2').click(function(e) {
+    $('#eeng2').click(function(e) {
            e.preventDefault();
            sound.stop();
         });
   });
 
-  SC.stream('/tracks/285134266',function(sound){
-    $('#start-e3').click(function(e) {
+  SC.stream('/tracks/731195665',function(sound){
+    $('#eng3').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-    $('#stop-e3').click(function(e) {
+    $('#eeng3').click(function(e) {
            e.preventDefault();
            sound.stop();
         });
   });
-  SC.stream('/tracks/317617738',function(sound){
-      $('#start-h1').click(function(e) {
+  SC.stream('/tracks/210294604',function(sound){
+      $('#j1').click(function(e) {
              e.preventDefault();
              sound.start();
            });
-      $('#stop-h1').click(function(e) {
+      $('#ej1').click(function(e) {
              e.preventDefault();
              sound.stop();
           });
     });
-    SC.stream('/tracks/156082767',function(sound){
-        $('#start-h2').click(function(e) {
+    SC.stream('/tracks/849936557',function(sound){
+        $('#j2').click(function(e) {
                e.preventDefault();
                sound.start();
              });
-        $('#stop-h2').click(function(e) {
+        $('#ej2').click(function(e) {
                e.preventDefault();
                sound.stop();
             });
       });
-      SC.stream('/tracks/421069101',function(sound){
-          $('#start-h3').click(function(e) {
+      SC.stream('/tracks/849936557',function(sound){
+          $('#j3').click(function(e) {
                  e.preventDefault();
                  sound.start();
                });
-          $('#stop-h3').click(function(e) {
+          $('#ej3').click(function(e) {
                  e.preventDefault();
                  sound.stop();
               });
         });
-        SC.stream('/tracks/225519099',function(sound){
-            $('#start-t1').click(function(e) {
+        SC.stream('/tracks/545239260',function(sound){
+            $('#tamil1').click(function(e) {
                    e.preventDefault();
                    sound.start();
                  });
-            $('#stop-t1').click(function(e) {
+            $('#etamil1').click(function(e) {
                    e.preventDefault();
                    sound.stop();
                 });
           });
-          SC.stream('/tracks/211453128',function(sound){
-              $('#start-t2').click(function(e) {
+          SC.stream('/tracks/321725260',function(sound){
+              $('#tamil2').click(function(e) {
                      e.preventDefault();
                      sound.start();
                    });
-              $('#stop-t2').click(function(e) {
+              $('#etamil2').click(function(e) {
                      e.preventDefault();
                      sound.stop();
                   });
             });
-            SC.stream('/tracks/255389574',function(sound){
-                $('#start-t3').click(function(e) {
+            SC.stream('/tracks/321725260',function(sound){
+                $('#tamil3').click(function(e) {
                        e.preventDefault();
                        sound.start();
                      });
-                $('#stop-t3').click(function(e) {
+                $('#etamil3').click(function(e) {
                        e.preventDefault();
                        sound.stop();
                     });
               });
+
 
 });

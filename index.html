@@ -1,86 +1,68 @@
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Website Title & Description for Search Engine purposes -->
+		<title>Lee music player</title>
+		<meta name="description" content="">
 
-    <!-- Title -->
-    <title>Music player from John</title>
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <!-- Favicon -->
-    <link rel="icon" href="https://img.icons8.com/material/24/000000/music--v2.png">
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+		<!-- Custom CSS -->
+		<link href="index.css" rel="stylesheet">
 
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+
+<script src="//connect.soundcloud.com/sdk.js"></script>
+<script src="main.js"></script>
+<script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+<style>
+
+</style>
 </head>
 <body>
-  <!-- #### header###### -->
-  <header>
-  <center><h1>Hello Everyone, Welcome to my music player...</h1></center>
-</header>
-<!-- ##### Song Language Area Start ##### -->
-<section class="events-area section-padding-100">
-    <div class="container">
-        <div class="row">
 
-            <!--  Song Language Area -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-event-area mb-30">
-                    <div class="event-thumbnail">
-                        <img src="img/bg-img/e1.jpg" alt="">
-                    </div>
-                    <div class="event-text">
-                        <h4>Tamil</h4>
-                        <div class="event-meta-data">
-                            <a href="tamil.html" class="event-place">Listen to Tamil songs</a>
-                            <a href="tamil.html" class="event-date">Click here</a>
-                        </div>
-                        <a href="tamil.html" class="btn see-more-btn">Tamil lovers</a>
-                    </div>
-                </div>
-            </div>
+<div>
 
-            <!--  Song Language Area -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-event-area mb-30">
-                    <div class="event-thumbnail">
-                        <img src="img/bg-img/e2.jpg" alt="">
-                    </div>
-                    <div class="event-text">
-                        <h4>Hindi</h4>
-                        <div class="event-meta-data">
-                            <a href="hindi.html" class="event-place">Listen to Hindi songs</a>
-                            <a href="hindi.html" class="event-date">Click here</a>
-                        </div>
-                        <a href="hindi.html" class="btn see-more-btn">Hindi lovers</a>
-                    </div>
-                </div>
-            </div>
+	<center>
+		<h2>Thayaparan Lee Music Player<h2>
 
-            <!--  Song Language Area -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-event-area mb-30">
-                    <div class="event-thumbnail">
-                        <img src="img/bg-img/e3.jpg" alt="">
-                    </div>
-                    <div class="event-text">
-                        <h4>English</h4>
-                        <div class="event-meta-data">
-                            <a href="english.html" class="event-place">Listen to English songs</a>
-                            <a href="english.html" class="event-date">Click here</a>
-                        </div>
-                        <a href="english.html" class="btn see-more-btn">English lovers</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- ##### Song Language Area End ##### -->
+	</center>
+
+</div>
+
+<div class="div12" style="background-color:#808080;">
+
+	<div>
+		<br>
+		<table class="table">
+			<tr>
+				<th colspan="2">SONGS</th>
+				<th><input class="w" type="text" placeholder=""></th>
+			</tr>
+			<tr>
+				<td><a href="tamil.html" ><img src="img01.jpg" alt="img01.jpg" class="img1"></a>
+					<div><div class="pic">Tamil songs</div><div class="pic2">Click me</div></div></td>
+				<td><a href="english.html" ><img src="img02.jpeg" alt="img02.jpg" class="img1"></a>
+					<div><div class="pic">English songs</div><div class="pic2">Click me</div></div></td>
+				<td><a href="jacki.html" ><img src="img03.jpeg" alt="img03.jpeg" class="img1"></a>
+					<div><div class="pic">Jacki songs</div><div class="pic2">Click me</div></div></td>
+
+			</tr>
+
+		</table>
+	</div>
+
+</div>
 </body>
 </html>
