@@ -14,7 +14,7 @@ $(document).ready(function() {
         });
   });
 
-  SC.stream('/tracks/787662708',function(sound){
+  SC.stream('/tracks/237292781',function(sound){
     $('#eng2').click(function(e) {
            e.preventDefault();
            sound.start();
@@ -45,7 +45,7 @@ $(document).ready(function() {
              sound.stop();
           });
     });
-    SC.stream('/tracks/849936557',function(sound){
+    SC.stream('/tracks/480608046',function(sound){
         $('#j2').click(function(e) {
                e.preventDefault();
                sound.start();
@@ -55,7 +55,7 @@ $(document).ready(function() {
                sound.stop();
             });
       });
-      SC.stream('/tracks/849936557',function(sound){
+      SC.stream('/tracks/136064869',function(sound){
           $('#j3').click(function(e) {
                  e.preventDefault();
                  sound.start();
@@ -65,7 +65,7 @@ $(document).ready(function() {
                  sound.stop();
               });
         });
-        SC.stream('/tracks/545239260',function(sound){
+        SC.stream('/tracks/919642741',function(sound){
             $('#tamil1').click(function(e) {
                    e.preventDefault();
                    sound.start();
@@ -75,7 +75,7 @@ $(document).ready(function() {
                    sound.stop();
                 });
           });
-          SC.stream('/tracks/321725260',function(sound){
+          SC.stream('/tracks/225519099',function(sound){
               $('#tamil2').click(function(e) {
                      e.preventDefault();
                      sound.start();
@@ -85,7 +85,7 @@ $(document).ready(function() {
                      sound.stop();
                   });
             });
-            SC.stream('/tracks/321725260',function(sound){
+            SC.stream('/tracks/108633175',function(sound){
                 $('#tamil3').click(function(e) {
                        e.preventDefault();
                        sound.start();
